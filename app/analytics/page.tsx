@@ -1,5 +1,5 @@
 "use client";
-import { useSearchParams } from "next/navigation";
+import { useEffect, useState } from "react";
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -25,11 +25,21 @@ ChartJS.register(
 
 export default function AnalyticsPage() {
 
-  const searchParams = useSearchParams();
+ const [currentPrice, setCurrentPrice] =
+  useState(445000);
 
-const currentPrice =
-  Number(searchParams.get("price")) || 445000;
+useEffect(() => {
 
+  const params = new URLSearchParams(
+    window.location.search
+  );
+
+  const price =
+    Number(params.get("price")) || 445000;
+
+  setCurrentPrice(price);
+
+}, []);
   const historicalData = [
 
     currentPrice * 0.72,
