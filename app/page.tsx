@@ -40,7 +40,7 @@ export default function Home() {
       setLoading(true);
 
       const response = await axios.post(
-        "https://housing-price-api.onrender.com/predict",
+        "https://housing-price-tlx4.onrender.com/predict",
         {
           longitude: Number(formData.longitude),
           latitude: Number(formData.latitude),
@@ -184,13 +184,8 @@ export default function Home() {
 
                   <div className="flex items-center gap-4 text-6xl font-bold">
 
-                    <IndianRupee
-                      size={50}
-                      className="text-green-400"
-                    />
-
                     <span className="bg-gradient-to-r from-green-300 to-green-500 bg-clip-text text-transparent">
-                      {prediction.toFixed(2)}
+                      ${prediction.toLocaleString()}
                     </span>
 
                   </div>
