@@ -178,20 +178,16 @@ backend/
 <br>
 
 <p align="center">
-  <img src="./assets/landing.png" width="100%" />
+  <img src="./assests/landing.png" width="100%" />
 </p>
 
 <br>
 
 <p align="center">
-  <img src="./assets/dashboard.png" width="100%" />
+  <img src="./assests/dashboard.png" width="100%" />
 </p>
 
 <br>
-
-<p align="center">
-  <img src="./assets/analytics.png" width="100%" />
-</p>
 
 
 <div align="center">
@@ -221,6 +217,7 @@ npm run dev
 pip install -r requirements.txt
 uvicorn app:app --reload
 ```
+<br>
 
 <div align="center">
 
@@ -229,14 +226,17 @@ uvicorn app:app --reload
 </div>
 
 <div align="center">
+  
 | Service | Platform |
 |---|---|
-| Frontend | Vercel |
-| Backend API | Render |
+| Frontend | <img src="https://img.shields.io/badge/Vercel-E8D8B0?style=for-the-badge&logo=vercel&logoColor=111111" /> |
+| Backend API | <img src="https://img.shields.io/badge/Render-E8D8B0?style=for-the-badge&logo=render&logoclor=111111" />|
+
 </div>
----
 
 <div align="center">
+
+<br>
 
 ## ❈ Future Improvements 🔮 ❈
 
@@ -249,44 +249,40 @@ uvicorn app:app --reload
 ✦ Saved valuation history  
 ✦ Interactive map analytics  
 
----
+</br>
 
 <div align="center">
 
 ## ❈ Contact 📬 ❈
 
-<br>
-
-<a href="YOUR_LINKEDIN_URL">
-<img src="https://img.shields.io/badge/✦_LinkedIn-F5E6C8?style=for-the-badge&labelColor=111111&color=C8A96B"/>
-</a>
-
-&nbsp;&nbsp;
-
-<a href="mailto:YOUR_EMAIL@gmail.com">
-<img src="https://img.shields.io/badge/✦_Gmail-E8D8B0?style=for-the-badge&labelColor=111111&color=B8955A"/>
-</a>
+<div align="center">
+  
+### ✦ © Sahil Kumar ✦
 
 </div>
 
----
+<br>
 
-<div align="center">
+<a href="https://www.linkedin.com/in/sahil-kumar-21a7aa316/">
+<img src="https://img.shields.io/badge/✦_LinkedIn-F5E6C8?style=for-the-badge&labelColor=111111&color=B8955A"/>
+</a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="mailto:sahilkumarjnv12@gmail.com">
+<img src="https://img.shields.io/badge/✦_Gmail-E8D8B0?style=for-the-badge&labelColor=111111&color=B8955A"/>
+</a>
 
-# ✦ © Sahil Kumar ✦
+<br><br><br>
 
-<i>
+<img src="https://img.shields.io/badge/Artificial_Intelligence-F5E6C8?style=for-the-badge&labelColor=F5E6C8&color=C8A96B" />
+&nbsp;&nbsp;&nbsp;
+<img src="https://img.shields.io/badge/Machine_Learning-E8D8B0?style=for-the-badge&labelColor=E8D8B0&color=C8A96B" />
+&nbsp;&nbsp;&nbsp;
+<img src="https://img.shields.io/badge/Full_Stack_Development-D6C29A?style=for-the-badge&labelColor=D6C29A&color=C8A96B" />
 
-Artificial Intelligence • Robotics • Machine Learning • Full Stack Development
+<br><br><br>
 
-</i>
-
-<br><br>
-
-<img src="https://img.shields.io/badge/Built_With-Precision-F5E6C8?style=for-the-badge&labelColor=111111&color=C8A96B"/>
-
-&nbsp;&nbsp;
-
+<img src="https://img.shields.io/badge/Built_With-Precision-F5E6C8?style=for-the-badge&labelColor=111111&color=B8955A"/>
+&nbsp;&nbsp;&nbsp;
 <img src="https://img.shields.io/badge/Powered_By-AI-E8D8B0?style=for-the-badge&labelColor=111111&color=B8955A"/>
 
 </div>
